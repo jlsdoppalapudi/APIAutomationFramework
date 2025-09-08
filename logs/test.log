@@ -1,0 +1,162 @@
+00:07:14 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!!!!!
+00:07:14 [main] INFO  com.api.listeners.TestListeners - loginTest : Test Case Started
+00:07:14 [main] INFO  com.api.listeners.TestListeners - Description!!!!Verify if Login API is working ........
+00:07:16 [main] INFO  com.api.listeners.TestListeners - loginTest : Test Case Passed
+00:07:16 [main] INFO  com.api.listeners.TestListeners - Description!!!!Verify if Login API is working ........
+00:07:16 [main] INFO  com.api.listeners.TestListeners - Test Suite Finished!!!!!!
+04:09:31 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!!!!!
+04:09:31 [main] INFO  com.api.listeners.TestListeners - loginTest : Test Case Started
+04:09:31 [main] INFO  com.api.listeners.TestListeners - Description!!!!Verify if Login API is working ........
+04:09:32 [main] INFO  com.api.filters.LoggingFilter - BASE URI :http://64.227.160.186:8080
+04:09:32 [main] INFO  com.api.filters.LoggingFilter - Request Header :Accept=*/*
+Content-Type=application/json
+04:09:32 [main] INFO  com.api.filters.LoggingFilter - Request Payload :{"username":"jaaji1234","password":"jaaji1234"}
+04:09:33 [main] INFO  com.api.filters.LoggingFilter - Status Code :200
+04:09:33 [main] INFO  com.api.filters.LoggingFilter - Request Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 08 Sep 2025 22:39:33 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+04:09:33 [main] INFO  com.api.filters.LoggingFilter - Request Body :{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYWFqaTEyMzQiLCJpYXQiOjE3NTczNzExNzMsImV4cCI6MTc1NzM3NDc3M30.cMzSfZg_nxbCKOlj62Hc6r8KmIC-eif7Evf72hRG490",
+    "type": "Bearer",
+    "id": 2652,
+    "username": "jaaji1234",
+    "email": "jaaji1234@testing.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+04:09:33 [main] INFO  com.api.listeners.TestListeners - loginTest : Test Case Passed
+04:09:33 [main] INFO  com.api.listeners.TestListeners - Description!!!!Verify if Login API is working ........
+04:09:33 [main] INFO  com.api.listeners.TestListeners - Test Suite Finished!!!!!!
+04:11:50 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!!!!!
+04:11:50 [main] INFO  com.api.listeners.TestListeners - loginTest : Test Case Started
+04:11:50 [main] INFO  com.api.listeners.TestListeners - Description!!!!Verify if Login API is working ........
+04:11:51 [main] INFO  com.api.filters.LoggingFilter - BASE URI :http://64.227.160.186:8080
+04:11:51 [main] INFO  com.api.filters.LoggingFilter - Request Header :Accept=*/*
+Content-Type=application/json
+04:11:51 [main] INFO  com.api.filters.LoggingFilter - Request Payload :{"username":"jaaji1234","password":"jaaji1234"}
+04:11:52 [main] INFO  com.api.filters.LoggingFilter - Response Status Code :200
+04:11:52 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 08 Sep 2025 22:41:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+04:11:52 [main] INFO  com.api.filters.LoggingFilter - Response{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYWFqaTEyMzQiLCJpYXQiOjE3NTczNzEzMTIsImV4cCI6MTc1NzM3NDkxMn0.52N6ShKzEwK2mE90oyxwOk6bLa94t5kt_RfuNEI24Vo",
+    "type": "Bearer",
+    "id": 2652,
+    "username": "jaaji1234",
+    "email": "jaaji1234@testing.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+04:11:52 [main] INFO  com.api.listeners.TestListeners - loginTest : Test Case Passed
+04:11:52 [main] INFO  com.api.listeners.TestListeners - Description!!!!Verify if Login API is working ........
+04:11:52 [main] INFO  com.api.listeners.TestListeners - Test Suite Finished!!!!!!
+04:46:29 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!!!!!
+04:46:30 [main] INFO  com.api.listeners.TestListeners - forgotPasswordTest : Test Case Started
+04:46:30 [main] INFO  com.api.listeners.TestListeners - Description!!!!Verify if Forgot Password API is working ........
+04:46:30 [main] INFO  com.api.filters.LoggingFilter - BASE URI :http://64.227.160.186:8080
+04:46:30 [main] INFO  com.api.filters.LoggingFilter - Request Header :Accept=*/*
+Content-Type=application/json
+04:46:30 [main] INFO  com.api.filters.LoggingFilter - Request Payload :{"email":"jaaji4321@testing.com"}
+04:46:31 [main] INFO  com.api.filters.LoggingFilter - Response Status Code :500
+04:46:31 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 08 Sep 2025 23:16:31 GMT
+Connection=close
+04:46:31 [main] INFO  com.api.filters.LoggingFilter - Response{
+    "timestamp": "2025-09-08 23:16:31",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/forgot-password",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+04:46:31 [main] INFO  com.api.listeners.TestListeners - forgotPasswordTest : Test Case Passed
+04:46:31 [main] INFO  com.api.listeners.TestListeners - Description!!!!Verify if Forgot Password API is working ........
+04:46:31 [main] INFO  com.api.listeners.TestListeners - loginTest : Test Case Started
+04:46:31 [main] INFO  com.api.listeners.TestListeners - Description!!!!Verify if Login API is working ........
+04:46:31 [main] INFO  com.api.filters.LoggingFilter - BASE URI :http://64.227.160.186:8080
+04:46:31 [main] INFO  com.api.filters.LoggingFilter - Request Header :Accept=*/*
+Content-Type=application/json
+04:46:31 [main] INFO  com.api.filters.LoggingFilter - Request Payload :{"username":"jaaji1234","password":"jaaji1234"}
+04:46:32 [main] INFO  com.api.filters.LoggingFilter - Response Status Code :200
+04:46:32 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 08 Sep 2025 23:16:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+04:46:32 [main] INFO  com.api.filters.LoggingFilter - Response{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYWFqaTEyMzQiLCJpYXQiOjE3NTczNzMzOTIsImV4cCI6MTc1NzM3Njk5Mn0.MalI3ot2ma-45PmPx0ClFOaKzEG4Ci-zUsgFt4gBaM4",
+    "type": "Bearer",
+    "id": 2652,
+    "username": "jaaji1234",
+    "email": "jaaji1234@testing.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+04:46:32 [main] INFO  com.api.listeners.TestListeners - loginTest : Test Case Passed
+04:46:32 [main] INFO  com.api.listeners.TestListeners - Description!!!!Verify if Login API is working ........
+04:46:32 [main] INFO  com.api.listeners.TestListeners - Test Suite Finished!!!!!!
